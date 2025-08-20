@@ -521,3 +521,58 @@
     at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
     at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
     at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-08-20T18:04:41.778Z [error]: Expected property name or '}' in JSON at position 7 (line 2 column 5) - SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\body-parser\lib\types\json.js:77:19)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+2025-08-20T18:31:17.433Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:92:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:31:17.455Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:92:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:32:32.078Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:32:32.101Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)

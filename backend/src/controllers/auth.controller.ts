@@ -88,9 +88,41 @@ export default class AuthController {
       .json({ message: 'Login successful', token, user: userWithoutPassword });
   });
 
-  static setPassword = asyncHandler(async (req, res): Promise<void> => {
+  static userVerify = asyncHandler(async (req, res): Promise<void> => {
+    console.log('UserVerify request body:', req.body);
+    const { input } = req.body;
+
+    if (!input) {
+      res
+        .status(HttpStatusCodes.BAD_REQUEST)
+        .json({ message: 'Email field is required' });
+      return;
+    }
+
+    // Check if the user exists
+    const user = await User.findOne({ email: input }) || await User.findOne({ phone: input });
+    if (!user) {
+      res.status(HttpStatusCodes.NOT_FOUND).json({ message: 'User not found' });
+      return;
+    }
+
+    // Send OTP email
+    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    console.log('Generated OTP:', otp);
+
+    // Update user's OTP
+    user.otp = otp;
+    user.ttl = new Date(Date.now() + 5 * 60 * 1000);
+    await user.save();
+
+    res
+      .status(HttpStatusCodes.CREATED)
+      .json({ message: 'Send OTP email' });
+  });
+
+  static resetPassword = asyncHandler(async (req, res): Promise<void> => {
     const { email, password } = req.body;
-    console.log('SetPassword request body:', req.body);
+    console.log('ResetPassword request body:', req.body);
 
     if (!email || !password) {
       res
