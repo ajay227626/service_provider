@@ -1,0 +1,523 @@
+2025-06-27T09:41:20.388Z [error]: Invalid namespace specified: bugs/task.users - MongoServerError: Invalid namespace specified: bugs/task.users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:41:20.393Z [error]: Invalid namespace specified: bugs/task.users - MongoServerError: Invalid namespace specified: bugs/task.users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:45:13.873Z [error]: Invalid namespace specified: bugs/task.users - MongoServerError: Invalid namespace specified: bugs/task.users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:45:13.876Z [error]: Invalid namespace specified: bugs/task.users - MongoServerError: Invalid namespace specified: bugs/task.users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:46:30.897Z [error]: Invalid namespace specified: bugs/task.users - MongoServerError: Invalid namespace specified: bugs/task.users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:46:30.900Z [error]: Invalid namespace specified: bugs/task.users - MongoServerError: Invalid namespace specified: bugs/task.users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:49:58.316Z [error]: Invalid namespace specified: bugs/task.bugs_task_users - MongoServerError: Invalid namespace specified: bugs/task.bugs_task_users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T09:49:58.318Z [error]: Invalid namespace specified: bugs/task.bugs_task_users - MongoServerError: Invalid namespace specified: bugs/task.bugs_task_users
+    at Connection.sendCommand (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:559:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cmap/connection.ts:633:22)
+    at async Server.command (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/server.ts:342:21)
+    at async FindOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/find.ts:130:12)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+2025-06-27T16:32:56.493Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T16:32:56.495Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T16:33:43.239Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T16:33:43.240Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T17:31:06.265Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T17:31:06.274Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T17:31:23.821Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-27T17:31:23.822Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-28T14:42:29.759Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-28T14:42:29.761Z [error]: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null } - MongoServerError: E11000 duplicate key error collection: bugs.users index: userName_1 dup key: { userName: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-06-29T06:37:22.934Z [error]: getaddrinfo ENOTFOUND cluster0-shard-00-01.as4he.mongodb.net - MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.as4he.mongodb.net
+    at Topology.selectServer (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/topology.ts:634:30)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:201:16)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+    at async FindCursor.next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:612:9)
+    at async Collection.findOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:526:17)
+    at async model.Query._findOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/query.js:2687:15)
+    at async model.Query.exec (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/query.js:4604:63)
+2025-06-29T06:37:22.938Z [error]: getaddrinfo ENOTFOUND cluster0-shard-00-01.as4he.mongodb.net - MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.as4he.mongodb.net
+    at Topology.selectServer (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/sdam/topology.ts:634:30)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:201:16)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async FindCursor._initialize (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/find_cursor.ts:92:22)
+    at async FindCursor.cursorInit (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:944:21)
+    at async FindCursor.fetchBatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:982:7)
+    at async FindCursor.next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:612:9)
+    at async Collection.findOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:526:17)
+    at async model.Query._findOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/query.js:2687:15)
+    at async model.Query.exec (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/query.js:4604:63)
+2025-07-01T05:18:30.026Z [error]: user.save is not a function - TypeError: user.save is not a function
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:110:16
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:38:58)
+2025-07-01T05:18:30.069Z [error]: user.save is not a function - TypeError: user.save is not a function
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:110:16
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:38:58)
+2025-07-08T12:07:57.482Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-08T12:07:57.491Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-08T12:12:27.205Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-08T12:12:27.227Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-08T12:17:23.260Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-08T12:17:23.261Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-15T11:34:35.121Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-15T11:34:35.136Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-15T11:36:36.863Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-15T11:36:36.870Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T06:08:40.618Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:08:40.624Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:09:46.806Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:09:46.811Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:10:20.923Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:10:20.927Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:11:45.354Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:11:45.357Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:11:47.677Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:11:47.677Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:12:03.159Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:12:03.159Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:12:45.141Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:12:45.152Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:53:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:13:22.404Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:54:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:13:22.413Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:54:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:15:52.077Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:54:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T06:15:52.078Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:54:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:52:69
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T08:50:15.131Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:13:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:12:72
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T08:50:15.135Z [error]: Cannot destructure property 'email' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:13:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:37:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/auth.controller.ts:12:72
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T09:24:56.066Z [error]: Cannot destructure property 'toolName' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'toolName' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:47:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:4:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:46:67
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T09:24:56.068Z [error]: Cannot destructure property 'toolName' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'toolName' of 'req.body' as it is undefined.
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:47:13
+    at Generator.next (<anonymous>)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:4:12)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/controllers/user.controller.ts:46:67
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/src/utils/asyncHandler.ts:11:5
+    at Layer.handleRequest (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/router/lib/route.js:117:3)
+2025-07-21T09:25:08.077Z [error]: Expected double-quoted property name in JSON at position 65 (line 4 column 1) - SyntaxError: Expected double-quoted property name in JSON at position 65 (line 4 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/body-parser/lib/types/json.js:77:19)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/raw-body/index.js:238:16)
+    at done (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:507:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+2025-07-21T09:25:22.344Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T09:25:22.345Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T09:26:08.984Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T09:26:08.984Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T09:28:19.061Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T09:28:19.061Z [error]: user validation failed: password: Path `password` is required., email: Path `email` is required. - ValidationError: user validation failed: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongoose/lib/schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21T09:32:22.140Z [error]: E11000 duplicate key error collection: bugs.tools index: name_1 dup key: { name: null } - MongoServerError: E11000 duplicate key error collection: bugs.tools index: name_1 dup key: { name: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
+2025-07-21T09:32:22.142Z [error]: E11000 duplicate key error collection: bugs.tools index: name_1 dup key: { name: null } - MongoServerError: E11000 duplicate key error collection: bugs.tools index: name_1 dup key: { name: null }
+    at InsertOneOperation.execute (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/insert.ts:88:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async tryOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)
+    at async executeOperation (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)
+    at async Collection.insertOne (/Users/harekrishn/Desktop/Param/React_Native/Bug_Bunters/backend/node_modules/mongodb/src/collection.ts:286:12)
