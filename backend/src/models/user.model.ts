@@ -8,8 +8,6 @@ export interface UserInterface {
   role: string;
   department: string;
   phone: string;
-  otp: string;
-  ttl: Date;
 }
 
 const userSchema: Schema = new Schema(
@@ -21,8 +19,6 @@ const userSchema: Schema = new Schema(
     role: { type: String, enum: ['user', 'admin', 'minion'], default: 'user' },
     department: { type: String, required: false, default: '' },
     phone: { type: String, default: '' },
-    otp: { type: String, default: '' },
-    ttl: { type: Date, default: Date.now, expires: '5m' },
   },
   { timestamps: true },
 );

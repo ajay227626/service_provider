@@ -8,7 +8,6 @@ export default class UserController {
   // Method to get user data with jwt token
   static getUserDataWithToken = asyncHandler(
     async (req, res): Promise<void> => {
-      console.log('User Data:', req);
       res.status(HttpStatusCodes.OK).send(req.user);
     },
   );
@@ -18,10 +17,8 @@ export default class UserController {
       res.status(HttpStatusCodes.FORBIDDEN).json({ message: 'Access denied' });
       return;
     }
-    console.log('New Member request body:', req.user);
 
     const { email, name, password, department, resetPass } = req.body;
-    console.log('14', req.body);
 
     if (!email || !name || !password || !department || resetPass == undefined) {
       res

@@ -13,7 +13,6 @@ export const authenticateToken = async (
   res: Response,
   next: NextFunction,
 ): Promise<void> => {
-  console.log('16', req.headers);
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1];
   if (!token) {
@@ -21,17 +20,14 @@ export const authenticateToken = async (
     return; // Ensure no further code execution
   }
 
-  console.log('Token:', token); // Debugging line to check the token
 
   try {
     const decoded = jwt.verify(token, SECRET_KEY) as { userId: string };
-    console.log('decoded', decoded);
     const user = await User.findById(decoded.userId, {
       password: 0,
       googleRefreshToken: 0,
       isApproved: 0,
     }).lean();
-    console.log('user', user);
     if (!user) {
       res.status(403).json({ message: 'User not found' });
       return;

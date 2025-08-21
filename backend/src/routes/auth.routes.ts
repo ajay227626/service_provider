@@ -121,6 +121,7 @@ router.post('/login', AuthController.loginUser);
    *          description: User not found
    */
 router.post('/verify', AuthController.userVerify);
+router.post('/otpVerify', AuthController.otpVerify);
   /**
    * @swagger
    * /api/auth/resetPassword:
@@ -149,5 +150,6 @@ router.post('/verify', AuthController.userVerify);
    *          description: User not found
    */
 router.put('/resetPassword', AuthController.resetPassword);
+
 
 export default router;

@@ -642,3 +642,87 @@
     at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
     at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
     at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-21T19:38:16.178Z [error]: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:199:30
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:187:73
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+2025-08-21T19:38:16.182Z [error]: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:199:30
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:187:73
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+2025-08-21T21:15:55.365Z [error]: Cannot destructure property 'name' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:8:17
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:4:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:7:74
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-21T21:15:55.370Z [error]: Cannot destructure property 'name' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:8:17
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:4:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\group.controller.ts:7:74
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-21T21:37:00.139Z [error]: Cast to ObjectId failed for value ":groupId" (type string) at path "_id" for model "Group" - CastError: Cast to ObjectId failed for value ":groupId" (type string) at path "_id" for model "Group"
+    at SchemaObjectId.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at model.Query.Query._castConditions (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndUpdate (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:3454:8)
+    at model.Query.exec (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-21T21:37:00.142Z [error]: Cast to ObjectId failed for value ":groupId" (type string) at path "_id" for model "Group" - CastError: Cast to ObjectId failed for value ":groupId" (type string) at path "_id" for model "Group"
+    at SchemaObjectId.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at model.Query.Query._castConditions (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndUpdate (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:3454:8)
+    at model.Query.exec (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-21T21:42:19.571Z [error]: Cast to ObjectId failed for value "68a78ccb3041344b67d7b" (type string) at path "_id" for model "Group" - CastError: Cast to ObjectId failed for value "68a78ccb3041344b67d7b" (type string) at path "_id" for model "Group"
+    at SchemaObjectId.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at model.Query.Query._castConditions (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndDelete (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:3593:8)
+    at model.Query.exec (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-21T21:42:19.572Z [error]: Cast to ObjectId failed for value "68a78ccb3041344b67d7b" (type string) at path "_id" for model "Group" - CastError: Cast to ObjectId failed for value "68a78ccb3041344b67d7b" (type string) at path "_id" for model "Group"
+    at SchemaObjectId.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at model.Query.Query._castConditions (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndDelete (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:3593:8)
+    at model.Query.exec (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
