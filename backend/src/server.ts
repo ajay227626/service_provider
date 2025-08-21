@@ -16,6 +16,7 @@ try {
         await mongoose.connect(MONGO_URI);
         console.log("Connected to MongoDB");
         console.log(`Server running on port ${PORT}`);
+        console.log(`Swagger Docs available at http://localhost:${PORT}/api-docs`);
     });
 } catch (error) {
     console.error("MongoDB connection failed:", error);

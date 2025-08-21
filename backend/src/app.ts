@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import routes from "./routes";
 import cors from "cors";
 import { errorHandler } from "./utils/errorHandler";
+import { setupSwagger } from "./routes/auth.routes"
 
 dotenv.config();
 
@@ -17,7 +18,6 @@ app.use("/api", routes);
 
 // Error handling middleware
 app.use(errorHandler);
+setupSwagger(app);
 
 export default app;
-
-

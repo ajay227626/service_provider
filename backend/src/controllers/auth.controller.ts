@@ -121,18 +121,18 @@ export default class AuthController {
   });
 
   static resetPassword = asyncHandler(async (req, res): Promise<void> => {
-    const { email, password } = req.body;
+    const { input, password } = req.body;
     console.log('ResetPassword request body:', req.body);
 
-    if (!email || !password) {
+    if (!input || !password) {
       res
         .status(HttpStatusCodes.BAD_REQUEST)
         .json({ message: 'Email and password fields are required' });
       return;
     }
-
+    // $2b$10$RgnGUgcXBqJW2I8pH1FNQ.392z9MnI9Xi3iIkB.LLF154Q/bfYr.2
     // Check if the user exists
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email: input }) || await User.findOne({ phone: input });
     if (!user) {
       res.status(HttpStatusCodes.NOT_FOUND).json({ message: 'User not found' });
       return;
@@ -140,6 +140,7 @@ export default class AuthController {
 
     user.password = await bcrypt.hash(password, 10);
     await user.save();
+
     res
       .status(HttpStatusCodes.CREATED)
       .json({ message: 'Password change successfully' });

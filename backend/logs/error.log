@@ -576,3 +576,69 @@
     at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
     at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
     at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:46:19.484Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:46:19.491Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:46:28.784Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:46:28.786Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:46:50.753Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
+2025-08-20T18:46:50.755Z [error]: Cannot destructure property 'input' of 'req.body' as it is undefined. - TypeError: Cannot destructure property 'input' of 'req.body' as it is undefined.
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:93:13
+    at Generator.next (<anonymous>)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:37:12)
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\controllers\auth.controller.ts:91:70
+    at C:\Users\CBX\Desktop\New_Journey\service_provider\backend\src\utils\asyncHandler.ts:11:5
+    at Layer.handleRequest (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\CBX\Desktop\New_Journey\service_provider\backend\node_modules\router\lib\route.js:117:3)
