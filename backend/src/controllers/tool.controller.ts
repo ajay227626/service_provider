@@ -75,7 +75,7 @@ export default class ToolController {
     console.log('Updating tool with ID:', toolId);
 
     // 🔹 SINGLE UPDATE
-    if (toolId && toolId !== 'batchUpdate') {
+    if (toolId && toolId !== 'batch') {
       const updateData = req.body;
 
       if (!updateData || Object.keys(updateData).length === 0) {
@@ -128,7 +128,7 @@ export default class ToolController {
       const { toolId } = req.params;
 
       // 🔹 Single delete mode
-      if (toolId && toolId !== 'batchDelete') {
+      if (toolId && toolId !== 'batch') {
         const deletedTool = await Tool.findOneAndDelete({ toolId });
         if (!deletedTool) {
           res.status(HttpStatusCodes.NOT_FOUND).json({ message: 'Tool not found' });

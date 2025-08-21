@@ -5,8 +5,8 @@ const router = Router();
 
 router.post('/add_group', GroupController.AddGroup);
 router.get('/getGroups', GroupController.GetGroups);
-router.put('/groups/:groupId', GroupController.updateGroup);
-router.delete('/groups/:groupId', GroupController.deleteGroup);
-router.delete('/groups/batchDelete', GroupController.deleteGroup);
+router.put('/update/:groupId', GroupController.updateGroup);
+router.delete('/delete/:groupId', GroupController.deleteGroup);
+router.delete('/delete/batch', GroupController.deleteGroup);
 
 export default router;

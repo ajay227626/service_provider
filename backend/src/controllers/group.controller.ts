@@ -91,7 +91,7 @@ export default class GroupController {
     static deleteGroup = asyncHandler(async (req: Request, res: Response): Promise<void> => {
         const { groupId } = req.params;
 
-        if (groupId && groupId !== "batchDelete") {
+        if (groupId && groupId !== "batch") {
             const deletedGroup = await Group.findByIdAndDelete(groupId);
             if (!deletedGroup) {
                 res.status(HttpStatusCodes.NOT_FOUND).json({ message: 'Group not found' });
