@@ -30,7 +30,7 @@ const router = Router();
 
   /**
    * @swagger
-   * /register:
+   * /api/auth/register:
    *    post:
    *          summary: Register a new user
    *          description: Register a new user with email, fullName, password, department, and phone
@@ -70,7 +70,7 @@ const router = Router();
 router.post('/register', AuthController.registerUser);
   /**
    * @swagger
-   * /login:
+   * /api/auth/login:
    *    post:
    *      summary: Login user
    *      description: Login user with email and password
@@ -98,7 +98,7 @@ router.post('/register', AuthController.registerUser);
 router.post('/login', AuthController.loginUser);
   /**
    * @swagger
-   * /verify:
+   * /api/auth/verify:
    *    post:
    *      summary: Verify user
    *      description: Verify user by email or phone
@@ -123,7 +123,7 @@ router.post('/login', AuthController.loginUser);
 router.post('/verify', AuthController.userVerify);
   /**
    * @swagger
-   * /resetPassword:
+   * /api/auth/resetPassword:
    *    put:
    *      summary: Reset user password
    *      description: Reset user password by email or phone
