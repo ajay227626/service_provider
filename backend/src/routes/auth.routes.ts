@@ -2,7 +2,6 @@ import { Router } from 'express';
 import AuthController from '../controllers/auth.controller';
 import swaggerJsDoc, { Options } from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
-import { Express } from "express";
 import { Application } from "express";
 
 const swaggerOptions: Options = {
