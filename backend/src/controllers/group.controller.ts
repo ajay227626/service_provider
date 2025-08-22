@@ -2,7 +2,6 @@ import { Request, Response } from 'express';
 import { asyncHandler } from '../utils/asyncHandler';
 import { HttpStatusCodes } from '../utils/errorCodes';
 import Group from '../models/group.models';
-import mongoose from 'mongoose';
 
 export default class GroupController {
     static AddGroup = asyncHandler(async (req: Request, res: Response) => {

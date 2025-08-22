@@ -40,7 +40,6 @@ export default class ToolController {
       skipped: existingToolIds,
     });
   });
-
   // Get Tool_list with optional search query
   static GetTools = asyncHandler(
     async (req: Request, res: Response): Promise<void> => {
@@ -69,7 +68,6 @@ export default class ToolController {
       }
     },
   );
-
   static updateTool = asyncHandler(async (req: Request, res: Response): Promise<void> => {
     const toolId = req.params.toolId;
     console.log('Updating tool with ID:', toolId);
@@ -122,7 +120,6 @@ export default class ToolController {
       updatedTools: results,
     });
   });
-
   static deleteTool = asyncHandler(async (req: Request, res: Response): Promise<void> => {
     try {
       const { toolId } = req.params;
