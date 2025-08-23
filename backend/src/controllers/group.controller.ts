@@ -36,7 +36,6 @@ export default class GroupController {
             data: newGroup,
         });
     });
-
     static GetGroups = asyncHandler(async (req: Request, res: Response) => {
         const { query } = req.query;
 
@@ -57,7 +56,6 @@ export default class GroupController {
             data: groups,
         });
     });
-
     static updateGroup = asyncHandler(async (req: Request, res: Response): Promise<void> => {
         const { groupId } = req.params;
         const updatedData = req.body;
@@ -86,7 +84,6 @@ export default class GroupController {
             data: updatedGroup,
         });
     });
-
     static deleteGroup = asyncHandler(async (req: Request, res: Response): Promise<void> => {
         const { groupId } = req.params;
 

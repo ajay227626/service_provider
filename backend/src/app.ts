@@ -15,6 +15,7 @@ app.use(express.json());
 app.use(cors());
 // Routes
 app.use("/api", routes);
+setupSwagger(app);
 
 app.use((req: Request, res: Response, next: NextFunction) => {
     res.status(404).json({
@@ -24,6 +25,5 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 // Error handling middleware
 app.use(errorHandler);
-setupSwagger(app);
 
 export default app;
